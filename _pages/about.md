@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Scientist at [Koç University, KUIS AI Center](https://ai.ku.edu.tr). My main research area is natural language processing (NLP). I mainly focus on vision-language tasks, knowledge-intensive NLP problems, and devising tools, benchmarks, and systems for the Turkish language. Previously, I was a PhD student at Koç University, under the supervision of [Deniz Yuret](https://www.denizyuret.com) and [Aykut Erdem](https://aykuterdem.github.io/). I received my bachelor degree from [Istanbul Technical University](https://www.itu.edu.tr), [Department of Electronics and Communication Engineering](https://ehb.itu.edu.tr/en/home). The easiest way to contact me is to [send an email](mailto:ikesen16--ku.edu.tr).
+I am a researcher at [Koç University, KUIS AI Center](https://ai.ku.edu.tr). My main research area is natural language processing (NLP). I mainly focus on vision-language tasks, knowledge-intensive NLP problems, and devising tools, benchmarks, and systems for the Turkish language. Previously, I was a PhD student at Koç University, under the supervision of [Deniz Yuret](https://www.denizyuret.com) and [Aykut Erdem](https://aykuterdem.github.io/). I received my bachelor degree from [Istanbul Technical University](https://www.itu.edu.tr), [Department of Electronics and Communication Engineering](https://ehb.itu.edu.tr/en/home). The easiest way to contact me is to [send an email](mailto:ikesen16--ku.edu.tr).
 
 
 ## News
