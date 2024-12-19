@@ -8,10 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher at [Koç University, KUIS AI Center](https://ai.ku.edu.tr). My main research area is natural language processing (NLP). I mainly focus on vision-language tasks, knowledge-intensive NLP problems, and devising tools, benchmarks, and systems for the Turkish language. Previously, I was a PhD student at Koç University, under the supervision of [Deniz Yuret](https://www.denizyuret.com) and [Aykut Erdem](https://aykuterdem.github.io/). I received my bachelor degree from [Istanbul Technical University](https://www.itu.edu.tr), [Department of Electronics and Communication Engineering](https://ehb.itu.edu.tr/en/home). The easiest way to contact me is to [send an email](mailto:ikesen16--ku.edu.tr).
+I am a postdoc at [Language and Multimodal Processing Group](https://lampgroup.github.io/) at the Department of Computer Science at the University of Copenhagen. My main research area is natural language processing (NLP). I mainly focus on vision-language tasks and multilingual language learning. Previously, I was a PhD student at Koç University, under the supervision of [Deniz Yuret](https://www.denizyuret.com) and [Aykut Erdem](https://aykuterdem.github.io/). I received my bachelor degree from [Istanbul Technical University](https://www.itu.edu.tr), [Department of Electronics and Communication Engineering](https://ehb.itu.edu.tr/en/home). The easiest way to contact me is to [send an email](mailto:ilkerksn--gmail.com).
 
 
 ## News
+- **Dec 2024**: We made our Turkish NLP benchmark [Cetvel](https://huggingface.co/spaces/KUIS-AI/Cetvel) publicly available.
+- **Sep 2024**: Started a new position: Postdoctoral Researcher at [LAMP Group](https://lampgroup.github.io/) at the University of Copenhagen.
 - **Jan 2024**: Our work ViLMA, a zero-shot evaluation benchmark for video-language models got accepted to ICLR 2024! Check out [the project page](https://cyberiada.github.io/ViLMA) to learn more.
 - **Sep 2023**: I successfully defended my thesis and earned a PhD degree!
 - **Sep 2022**: I will be visiting Iacer Calixto's group at Amsterdam Medical Center, University of Amsterdam until the end of this October!
