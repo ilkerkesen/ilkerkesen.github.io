@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<h1>{{ site.title | escape }}'s personal website</h1>
+
+<hr>
+
+<div class="profile">
+  <div>
+    <img src="{{ '/assets/images/self-portrait.jpg' | relative_url }}"
+         alt="Self-portrait of {{ site.title | escape }}"
+         width="200" height="200">
+
+    <p class="profile-name">{{ site.title | escape }}</p>
+    {%- if site.job_title %}
+    <p class="profile-title">{{ site.job_title | escape }}</p>
+    {%- endif %}
+
+    <p class="profile-location">{% include icons/location.svg %}{{ site.location | escape }}</p>
+
+    <ul class="social-links">
+      <li>
+        <a href="mailto:{{ site.email }}" aria-label="Email" title="Email">
+          {%- include icons/envelope.svg -%}
+        </a>
+      </li>
+      {%- for link in site.data.social %}
+      {%- if link.url %}
+      <li>
+        <a href="{{ link.url | escape }}" aria-label="{{ link.name }}" title="{{ link.name }}">
+          {%- include icons/{{ link.icon }}.svg -%}
+        </a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+  </div>
+
+  <div class="profile-bio">
+    {{ content }}
+  </div>
+</div>

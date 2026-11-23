@@ -1,0 +1,11 @@
+title: Ilker Kesen
+job_title: Postdoctoral Scientist
+description: >-
+  Ilker Kesen is a postdoc at Humboldt-Universität zu Berlin working on
+  natural language processing.
+location: Berlin, Germany
+email: name.surname@hu-berlin.de
+
+exclude:
+  - README.md
+  - LICENSE

@@ -1,0 +1,123 @@
+/* Overrides on top of water.css */
+
+:root {
+  --link-hover-bg: #0055ff;
+}
+
+body {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+
+main a {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 0.2em;
+}
+
+main a:hover,
+main a:focus-visible {
+  background-color: var(--link-hover-bg);
+  color: #fff;
+}
+
+/* water.css puts an envelope emoji before every mailto: link */
+a[href^="mailto:"]::before {
+  content: none;
+}
+
+/* Profile layout: photo and contact details beside the bio on wide screens */
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.profile img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-name {
+  margin-bottom: 0.5rem;
+  color: var(--text-bright);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.profile-title {
+  margin: 0 0 0.75rem;
+}
+
+.profile-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.profile-location svg {
+  flex: none;
+  width: 1.25em;
+  height: 1.25em;
+  color: var(--text-bright);
+}
+
+/* Email and social profiles: a single row of icons, tinted with the link color on hover */
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-links a {
+  display: block;
+  color: var(--text-bright);
+  text-decoration: none;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  background-color: transparent;
+  color: var(--links);
+}
+
+.social-links svg {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* News: a Markdown definition list (date, then item) shown as two aligned columns */
+
+dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1rem;
+}
+
+dt {
+  color: var(--text-muted);
+}
+
+dd {
+  margin: 0;
+}
+
+@media (min-width: 42rem) {
+  .profile {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 7fr);
+  }
+
+  /* Start the bio level with the top of the photo */
+  .profile-bio > :first-child {
+    margin-top: 0;
+  }
+}

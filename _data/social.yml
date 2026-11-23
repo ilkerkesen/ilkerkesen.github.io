@@ -1,0 +1,23 @@
+# Profile links shown as a row of icons in the homepage sidebar, in this order.
+# `name` is the tooltip and screen-reader label; `icon` is a file name in
+# _includes/icons/. Entries without a url are hidden.
+
+- name: Twitter
+  icon: twitter
+  url: https://x.com/ilker_kesen
+
+- name: Bluesky
+  icon: bluesky
+  url: https://bsky.app/profile/ilkerkesen.bsky.social
+
+- name: LinkedIn
+  icon: linkedin
+  url: https://www.linkedin.com/in/ilkerkesen/
+
+- name: GitHub
+  icon: github
+  url: https://github.com/ilkerkesen
+
+- name: Google Scholar
+  icon: google-scholar
+  url: https://scholar.google.com/citations?user=Ma__oU0AAAAJ&hl=en
